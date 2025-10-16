@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	fmt.Println("hello word")
-	fmt.Println("------------------VARIABLE-------------------------------")
+	fmt.Println("------------------VARIABLE--------------------------------")
 
 	var age int = 25 // integer
 	var name string = "Sumanth N"
