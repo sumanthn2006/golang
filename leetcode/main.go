@@ -29,9 +29,26 @@ func Reverse() {
 
 	fmt.Println(arr)
 }
+
+// 27. Remove Element
+func removeElement() {
+	nums := []int{0, 1, 2, 2, 3, 0, 4, 2}
+	val := 2
+	k := 0
+	n := len(nums)
+	for i := 0; i < n; i++ {
+		if nums[i] != val {
+			nums[k] = nums[i]
+			k++
+		}
+	}
+	fmt.Println(k)
+
+}
 func main() {
 	result := plusOne([]int{1, 2, 3})
 	fmt.Println(result)
 	Reverse()
+	removeElement()
 
 }
