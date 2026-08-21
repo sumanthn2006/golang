@@ -1,14 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
-func main() {
-	//	n := 20
-	//	for i := 0; i <= n; i++ {
-	//		println(i)
-	//	}
+func Palindrome() {
 	x := 505
 	o := x
 	r := 0
@@ -23,5 +17,13 @@ func main() {
 	} else {
 		fmt.Println("not palindrome")
 	}
+}
+
+func main() {
+	//	n := 20
+	//	for i := 0; i <= n; i++ {
+	//		println(i)
+	//	}
+	Palindrome()
 
 }
