@@ -8,14 +8,14 @@ func runCalculator() {
 	var a, b float64
 	var op string
 
-	fmt.Print("Enter first number: ")
-	fmt.Scanln(&a)
-
-	fmt.Print("Enter operator (+, -, *, /): ")
-	fmt.Scanln(&op)
-
-	fmt.Print("Enter second number: ")
-	fmt.Scanln(&b)
+	//fmt.Print("Enter first number: ")
+	//fmt.Scanln(&a)
+	//
+	//fmt.Print("Enter operator (+, -, *, /): ")
+	//fmt.Scanln(&op)
+	//
+	//fmt.Print("Enter second number: ")
+	//fmt.Scanln(&b)
 
 	switch op {
 	case "+":
