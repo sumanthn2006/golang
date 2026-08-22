@@ -13,7 +13,7 @@ func runCalculator() {
 	//
 	//fmt.Print("Enter operator (+, -, *, /): ")
 	//fmt.Scanln(&op)
-	//
+
 	fmt.Print("Enter second number: ")
 	fmt.Scanln(&b)
 
