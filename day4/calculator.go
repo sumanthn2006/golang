@@ -15,7 +15,7 @@ func runCalculator() {
 	//fmt.Scanln(&op)
 	//
 	//fmt.Print("Enter second number: ")
-	//fmt.Scanln(&b)
+	fmt.Scanln(&b)
 
 	switch op {
 	case "+":
