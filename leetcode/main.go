@@ -93,6 +93,24 @@ func maxProfit(prices []int) int {
 
 	return maxProfit
 }
+func strStr(haystack string, needle string) int {
+	hLen := len(haystack)
+	nLen := len(needle)
+
+	// Needle cannot fit inside a shorter haystack
+	if nLen > hLen {
+		return -1
+	}
+
+	// Check every possible starting position
+	for i := 0; i <= hLen-nLen; i++ {
+		if haystack[i:i+nLen] == needle {
+			return i
+		}
+	}
+
+	return -1
+}
 func main() {
 	result := plusOne([]int{1, 2, 3})
 	fmt.Println(result)
